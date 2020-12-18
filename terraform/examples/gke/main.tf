@@ -11,17 +11,17 @@ variable "project" {
 
 variable "region" {
   type    = "string"
-  default = "europe-west3"
+  default = "us-central1"
 }
 
 variable "zone" {
   type    = "string"
-  default = "europe-west3-a"
+  default = "us-central1-b"
 }
 
 variable "zones" {
   type    = "list"
-  default = ["europe-west3-a", "europe-west3-b"]
+  default = ["us-central-a", "us-central-b"]
 }
 
 variable "preemptible" {
